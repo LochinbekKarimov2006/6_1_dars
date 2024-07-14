@@ -1,7 +1,7 @@
 import logo from '../images/logo-2.png'
 function Footer() {
   return (
-    <div className='div-3 div-1'>
+    <div className='div-3 div-1 mt-32'>
       <div>
         <img src={logo} alt="logo" />
         <h2 className='text-2xl font-bold mt-4'>Destinize</h2>
