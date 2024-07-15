@@ -52,11 +52,11 @@ function Home() {
             </div>
            <a href="">Lihat semua ›</a>
         </div>
-        <div className='div-8'>
+        <div className='div-8 mt-6'>
          <img src={rasimlar10} alt="" />
-         <img src={rasimlar11} alt="" />
          <img src={rasimlar12} alt="" />
-         <img src={rasimlar13} alt="" />
+         <img src={rasimlar10} alt="" />
+         <img src={rasimlar12} alt="" />
 
         </div>
         </div>
