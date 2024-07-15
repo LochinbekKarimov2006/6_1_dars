@@ -8,6 +8,10 @@ import rasimlar10 from "../images/rasimlar10.png"
 import rasimlar11 from "../images/rasimlar11.png"
 import rasimlar12 from "../images/rasimlar12.png"
 import rasimlar13 from "../images/rasimlar13.png"
+import rasim20 from "../images/rasim20.png"
+import image from "../images/image40.png"
+import image2 from "../images/Group11.png"
+import image3 from "../images/Group12.png"
 function Home() {
   return (
     <div >
@@ -59,6 +63,34 @@ function Home() {
          <img src={rasimlar12} alt="" />
 
         </div>
+        </div>
+        <div className='div-10'>
+          <div className='div-11'>
+          <p className='text-lg font-extrabold	text-cyan-700'>RESERVASI TEMPAT</p>
+          <h2 className='font-extrabold text-5xl mt-2'>Gak mau ngantri? <br /> reservasi aja! 🤙🏻</h2>
+          <div className='flex max-w-sm	items-center mt-8'>
+            <img className='w-12 h-12 mr-4' src={rasim20} alt="" />
+            <div >
+              <h6 className='text-lg text-violet-600 font-bold'> Cari tempat yang kamu mau</h6>
+              <p className='font-normal text-sm	text-slate-500'>Temukan destinasi selanjutnya yang akan kamu kunjungi dengan Destinize</p>
+            </div>
+          </div>
+          <div className='flex max-w-sm	items-center mt-12'>
+            <img className='w-12 h-12 mr-4' src={image2} alt="" />
+            <div>
+              <h6 className='text-lg text-violet-600 font-bold'>Isi data dan konfirmasi pembayaran</h6>
+              <p className='font-normal text-sm	text-slate-500'>Tulis dan lengkapi data kamu untuk keperluan data booking</p>
+            </div>
+          </div>
+          <div className='flex max-w-sm	items-center mt-12'>
+            <img className='w-12 h-12 mr-4' src={image3} alt="" />
+            <div>
+              <h6 className='text-lg text-violet-600 font-bold'> Tinggal masuk dan enjoy!</h6>
+              <p className='font-normal text-sm	text-slate-500'>Kamu bisa langsung masuk dan enjoy liburan kamu tanpa hambatan</p>
+            </div>
+          </div>
+          </div>
+           <img src={image} alt="" />
         </div>
     </div>
   )

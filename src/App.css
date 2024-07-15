@@ -100,5 +100,12 @@ color: #14183e;
   margin: 0 auto;
 }
 .div-8 img{
-  width: 200px;
+  width: 300px;
+}
+.div-10{
+  width: 1286px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
 }
